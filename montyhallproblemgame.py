@@ -36,6 +36,3 @@ if randlist[finalpickindex] != 'car':
     print("You do not get a car.")
 elif randlist[finalpickindex] == 'car':
     print("You get the car!")
-
-
-print(door1,door2,door3)
