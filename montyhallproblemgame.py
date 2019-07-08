@@ -3,10 +3,6 @@ import random
 list = ["car", "zonk1", "zonk2"]
 randlist = random.sample(list, 3)
 
-door1 = randlist[0]
-door2 = randlist[1]
-door3 = randlist[2]
-
 pick = input("Pick a door. (Type 1, 2, or 3)")
 firstpick = int(pick)
 firstpickindex = firstpick - 1
